@@ -47,7 +47,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 Endpoints:
-
 GET /features
 POST /features
 POST /features/{id}/upvote
@@ -77,6 +76,7 @@ Select a simulator (e.g., iPhone 15).
 Run ▶️ to build.
 
 App loads from http://127.0.0.1:8000.
+
 ---
 
 ## 📦 Requirements
