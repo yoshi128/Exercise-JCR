@@ -36,7 +36,8 @@ Exercise-JCR/
 ```
 ---
 
-##⚙️ How to Run
+## How to Run
+
 Backend (FastAPI)
 cd backend
 python -m venv .venv
