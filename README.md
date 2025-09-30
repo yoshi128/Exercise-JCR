@@ -13,7 +13,7 @@ Deliverables:
 - iOS: open `/ios` project in Xcode and run on Simulator
 
 ---
-###Feature Voting System
+### Feature Voting System
 
 A full-stack mini-app.
 Users can propose new features and upvote others.
