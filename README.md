@@ -46,7 +46,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-### Endpoints:
+Endpoints:
+
 GET /features
 POST /features
 POST /features/{id}/upvote
@@ -55,9 +56,11 @@ GET /health
 ---
 
 ### Frontend (Angular)
+```bash
 cd web/feature-voting-web
 npm install
 ng serve --port 4200
+```
 
 Visit: http://localhost:4200
 
