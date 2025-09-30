@@ -19,6 +19,7 @@ A full-stack mini-app.
 Users can propose new features and upvote others.
 
 ## Project Structure
+```bash
 Exercise-JCR/
 ├── backend/                  # FastAPI + SQLite backend API
 │   ├── main.py               # API routes: list, create, upvote
@@ -32,10 +33,10 @@ Exercise-JCR/
     ├── ContentView.swift     # Displays list + upvote
     ├── API.swift             # Networking with backend
     └── Feature.swift         # Model
-
+```
 ---
 
-⚙️ How to Run
+##⚙️ How to Run
 Backend (FastAPI)
 cd backend
 python -m venv .venv
@@ -45,22 +46,17 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ---
 
 
-Endpoints:
-
+#Endpoints:
 GET /features
-
 POST /features
-
 POST /features/{id}/upvote
-
 GET /health
 ---
 
-Frontend (Angular)
+###Frontend (Angular)
 cd web/feature-voting-web
 npm install
 ng serve --port 4200
-
 
 Visit: http://localhost:4200
 
@@ -68,7 +64,7 @@ Ensure backend is running at http://localhost:8000
 
 ---
 
-Mobile (iOS SwiftUI)
+###Mobile (iOS SwiftUI)
 
 Open ios/FeatureVoting.xcodeproj in Xcode.
 
@@ -82,15 +78,13 @@ App loads from http://127.0.0.1:8000.
 📦 Requirements
 
 Python 3.10+
-
 Node.js 18+ / npm
-
 Angular CLI
 
 Xcode 15+ (for iOS simulator)
 ---
 
-📝 Notes
+##📝 Notes
 
 The project is intentionally minimal but functional: UI is plain, logic is complete.
 API_BASE is configured for localhost:8000; update if deploying remotely.
