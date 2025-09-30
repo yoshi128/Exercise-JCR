@@ -20,20 +20,19 @@ Users can propose new features and upvote others.
 
 ## Project Structure
 Exercise-JCR/
-├── backend/              # FastAPI + SQLite backend API
-│   ├── main.py           # API routes: list, create, upvote
-│   ├── models.py         # SQLAlchemy models
+├── backend/                  # FastAPI + SQLite backend API
+│   ├── main.py               # API routes: list, create, upvote
+│   ├── models.py             # SQLAlchemy models
 │   └── requirements.txt
-│
 ├── web/feature-voting-web/   # Angular frontend
 │   ├── src/app/components/   # FeatureCreate + FeatureList
 │   ├── src/app/services/     # Angular service calling backend
 │   └── src/environments/     # API_BASE set to localhost:8000
-│
 └── ios/FeatureVoting/        # iOS SwiftUI app
     ├── ContentView.swift     # Displays list + upvote
     ├── API.swift             # Networking with backend
     └── Feature.swift         # Model
+
 ---
 
 ⚙️ How to Run
