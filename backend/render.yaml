@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: feature-voting-api
+    env: python
+    rootDir: backend
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "./start.sh"
+    plan: free
+    autoDeploy: true
+    region: oregon
