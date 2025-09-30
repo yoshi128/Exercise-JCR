@@ -35,7 +35,6 @@ Exercise-JCR/
     └── Feature.swift         # Model
 ```
 ---
-
 ## How to Run
 
 Backend (FastAPI)
@@ -44,17 +43,17 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
----
 
 
-#Endpoints:
+### Endpoints:
 GET /features
 POST /features
 POST /features/{id}/upvote
 GET /health
+
 ---
 
-###Frontend (Angular)
+### Frontend (Angular)
 cd web/feature-voting-web
 npm install
 ng serve --port 4200
@@ -65,7 +64,7 @@ Ensure backend is running at http://localhost:8000
 
 ---
 
-###Mobile (iOS SwiftUI)
+### Mobile (iOS SwiftUI)
 
 Open ios/FeatureVoting.xcodeproj in Xcode.
 
@@ -76,13 +75,13 @@ Run ▶️ to build.
 App loads from http://127.0.0.1:8000.
 ---
 
-📦 Requirements
+## 📦 Requirements
 
 Python 3.10+
 Node.js 18+ / npm
 Angular CLI
-
 Xcode 15+ (for iOS simulator)
+
 ---
 
 ##📝 Notes
