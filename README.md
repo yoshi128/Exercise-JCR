@@ -81,10 +81,10 @@ App loads from http://127.0.0.1:8000.
 
 ## 📦 Requirements
 
-Python 3.10+
-Node.js 18+ / npm
-Angular CLI
-Xcode 15+ (for iOS simulator)
+- `Python 3.10+`
+- `Node.js 18+ / npm`
+- `Angular CLI`
+- `Xcode 15+ (for iOS simulator)`
 
 ---
 
