@@ -46,11 +46,11 @@ pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-Endpoints:
-GET /features
-POST /features
-POST /features/{id}/upvote
-GET /health
+### Endpoints
+- `GET /features`
+- `POST /features`
+- `POST /features/{id}/upvote`
+- `GET /health`
 
 ---
 
