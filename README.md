@@ -18,7 +18,7 @@ Feature Voting System
 A full-stack mini-app.
 Users can propose new features and upvote others.
 
-🚀 Project Structure
+## Project Structure
 Exercise-JCR/
 ├── backend/              # FastAPI + SQLite backend API
 │   ├── main.py           # API routes: list, create, upvote
